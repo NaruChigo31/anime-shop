@@ -1,0 +1,17 @@
+.content{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.innerTabCont{
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20;
+}

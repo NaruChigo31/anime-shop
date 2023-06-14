@@ -21,44 +21,9 @@
     width: 100%;
 }
 
-.content{
-    /* background-color: rgb(240, 236, 20); */
-    width: 80%;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-
-    /* justify-content: center; */
+.site-header{
+    position: sticky;
+    top: 0px;
+    left: 0px;
 }
 
-.tab-area{
-    padding: 20px;
-    display: flex;
-    gap: 20px;
-    /* justify-content: center; */
-    /* align-items: center; */
-}
-
-.innerTab1{
-    display: flex !important;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.card{
-    height: fit-content !important;
-}
-
-/* .innerTab2{
-    display: flex !important;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-} */
-
-/* .volumeImg{
-    min-height: min-content;
-} */
