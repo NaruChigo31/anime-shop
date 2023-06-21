@@ -32,19 +32,19 @@
             <div class="tab-pane fade show active innerTab1" id="add-category-tab-pane" role="tabpanel" aria-labelledby="add-category-tab" tabindex="0">
                 <div class="innerAdminTab">
                     <form class="needs-validation " novalidate>  
-                        <input type="text" class="form-control" placeholder="Название категории"  aria-describedby="basic-addon1"  minlength="2" required>
+                        <input type="text" class="form-control" placeholder="Category name"  aria-describedby="basic-addon1"  minlength="2" required>
                         <div class="valid-feedback">
-                            Все верно.
+                            It's allright.
                           </div>
                         <div class="invalid-feedback">
-                            Не может быть меньше 2 символов.
+                            2 symbols minimum.
                           </div> 
-                        <input type="text" class="form-control" placeholder="Описание"  aria-describedby="basic-addon1"  minlength="2" required>
+                        <input type="text" class="form-control" placeholder="Description"  aria-describedby="basic-addon1"  minlength="10" required>
                         <div class="valid-feedback">
-                            Все верно.
+                            It's allright.
                           </div>
                         <div class="invalid-feedback">
-                            Не может быть меньше 2 символов.
+                            10 symbols minimum.
                           </div>   
                         <input type="submit" class="btn btn-outline-danger" value="Добавить"> 
                     </form>
@@ -54,43 +54,43 @@
             <div class="tab-pane fade innerTab1" id="add-product-tab-pane" role="tabpanel" aria-labelledby="add-product-tab" tabindex="0">
                 <div class="innerAdminTab">
                     <form class="needs-validation " novalidate>  
-                        <input type="text" class="form-control" placeholder="Название товара"  aria-describedby="basic-addon1"  minlength="2" required>
+                        <input type="text" class="form-control" placeholder="Product name"  aria-describedby="basic-addon1"  minlength="2" required>
                         <div class="valid-feedback">
-                            Все верно.
+                            It's allright.
                           </div>
                         <div class="invalid-feedback">
-                            Не может быть меньше 2 символов.
+                            2 symbols minimum.
                           </div>
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Описание"  aria-describedby="basic-addon1" required>
+                            <input type="text" class="form-control" placeholder="Description"  aria-describedby="basic-addon1" required>
                             <div class="valid-feedback">
-                                Все верно.
+                                It's allright.
                           </div>
                             <div class="invalid-feedback">
-                                Заполните поле.
+                                Required.
                             </div>
                         </div>
                         <div class="input-group mb-3">
                         <div class="input-group mb-3">
-                          категории
+                          Categories
                           <div class="input-group mb-3">
                             <select class="form-select" aria-label="Default select example">
                                 <!-- <option  selected>выберете ктегорию</option> -->
-                                <option value="1">Манга</option>
-                                <option value="2">Фигурки</option>
-                                <option value="3">Постер</option>
-                                <option value="4">Плюшевая игрушка</option>
-                                <option value="5">Другое</option>
+                                <option value="1">Manga</option>
+                                <option value="2">Figures</option>
+                                <option value="3">Posters</option>
+                                <option value="4">Plushies</option>
+                                <option value="5">Other</option>
                               </select>
                           </div>
                         </div>
                         <div class="input-group mb-3">
                           <input type="number" class="form-control" placeholder="Цена в грн"  aria-describedby="basic-addon1" min="1" required>
                           <div class="valid-feedback">
-                              Все верно.
+                              It's allright.
                             </div>
                             <div class="invalid-feedback">
-                              Не может быть пустым.
+                              Required.
                             </div>
                         </div>   
                         <input type="submit" class="btn btn-outline-danger" value="Добавить"> 
@@ -100,7 +100,27 @@
 
             <div class="tab-pane fade innerTab1" id="CreateOrder-tab-pane" role="tabpanel" aria-labelledby="add-product-tab" tabindex="0">
                 <div class="innerAdminTab">
-
+                    <form class="needs-validation " novalidate>  
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Ordering product"  aria-describedby="basic-addon1" min="1" required>
+                            <div class="valid-feedback">
+                                It's allright.
+                              </div>
+                              <div class="invalid-feedback">
+                                Required.
+                              </div>
+                          </div>   
+                        <div class="input-group mb-3">
+                          <input type="number" class="form-control" placeholder="Цена в грн"  aria-describedby="basic-addon1" min="1" required>
+                          <div class="valid-feedback">
+                              It's allright.
+                            </div>
+                            <div class="invalid-feedback">
+                              Required.
+                            </div>
+                        </div>   
+                        <input type="submit" class="btn btn-outline-danger" value="Добавить"> 
+                    </form>
                 </div>
             </div>
 
